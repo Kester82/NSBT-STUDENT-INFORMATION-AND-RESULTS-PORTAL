@@ -57,4 +57,4 @@ Nduom School of Business & Technology
 
 ## Lecturer
 
-Paul Offei
+Mr. Paul Offei
