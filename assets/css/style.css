@@ -1,0 +1,104 @@
+:root {
+    --nsbt-blue: #0b3d91;
+    --nsbt-dark-blue: #062b67;
+    --nsbt-light-blue: #eaf2ff;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7fb;
+    color: #1f2937;
+}
+
+main {
+    flex: 1;
+}
+
+.portal-navbar {
+    background-color: var(--nsbt-blue);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.portal-footer {
+    padding: 1rem 0;
+    background-color: var(--nsbt-dark-blue);
+    color: #ffffff;
+}
+
+.auth-page {
+    min-height: calc(100vh - 128px);
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.auth-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(11, 61, 145, 0.12);
+}
+
+.btn-nsbt {
+    background-color: var(--nsbt-blue);
+    border-color: var(--nsbt-blue);
+    color: #ffffff;
+}
+
+.btn-nsbt:hover,
+.btn-nsbt:focus {
+    background-color: var(--nsbt-dark-blue);
+    border-color: var(--nsbt-dark-blue);
+    color: #ffffff;
+}
+
+.dashboard-page {
+    background-color: #f5f7fb;
+    min-height: calc(100vh - 128px);
+}
+
+.dashboard-sidebar {
+    background-color: var(--nsbt-dark-blue);
+    border-radius: 1rem;
+    padding: 1.25rem;
+}
+
+.student-nav-link {
+    display: block;
+    padding: 0.75rem 0.9rem;
+    margin-bottom: 0.35rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.student-nav-link:hover,
+.student-nav-link.active {
+    background-color: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+}
+
+.student-nav-link.disabled {
+    color: rgba(255, 255, 255, 0.55);
+    cursor: not-allowed;
+}
+
+.dashboard-welcome {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, var(--nsbt-blue), #2874d0);
+    color: #ffffff;
+}
+
+.dashboard-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 6px 20px rgba(11, 61, 145, 0.08);
+}
+
+.profile-label {
+    color: #6b7280;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
