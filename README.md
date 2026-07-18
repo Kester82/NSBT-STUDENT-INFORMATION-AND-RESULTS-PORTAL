@@ -31,13 +31,87 @@ It also provides interfaces for lecturers and administrators to manage student i
 ## Project Structure
 
 ```
-css/
-js/
-images/
-index.html
-login.html
-student-dashboard.html
-results.html
+NSBT-STUDENT-INFORMATION-AND-RESULTS-PORTAL
+├───app
+│   ├───controllers
+│   │       AuthController.php
+│   │       LecturerController.php
+│   │       StudentController.php
+│   │       
+│   ├───models
+│   │       Course.php
+│   │       Document.php
+│   │       Lecturer.php
+│   │       Result.php
+│   │       Student.php
+│   │       Timetable.php
+│   │       User.php
+│   │       
+│   └───views
+│       ├───admin
+│       ├───auth
+│       │       login.php
+│       │       register.php
+│       │       
+│       ├───lecturer
+│       │   │   dashboard.php
+│       │   │   results.php
+│       │   │   
+│       │   └───partials
+│       │           sidebar.php
+│       │           
+│       └───student
+│           │   announcements.php
+│           │   courses.php
+│           │   dashboard.php
+│           │   downloads.php
+│           │   notifications.php
+│           │   profile.php
+│           │   results.php
+│           │   timetable.php
+│           │   
+│           └───partials
+│                   sidebar.php
+│                   
+├───assets
+│   ├───css
+│   │       style.css
+│   │       
+│   ├───downloads
+│   │       Programming with Java book.pdf
+│   │       
+│   ├───images
+│   └───js
+├───config
+│       app.php
+│       database.php
+│       
+├───includes
+│       footer.php
+│       header.php
+│       
+├───public
+│   │   login.php
+│   │   logout.php
+│   │   register.php
+│   │   
+│   ├───lecturer
+│   │       dashboard.php
+│   │       results.php
+│   │       
+│   └───student
+│           announcements.php
+│           courses.php
+│           dashboard.php
+│           downloads.php
+│           notifications.php
+│           profile.php
+│           results.php
+│           timetable.php
+│           
+└───tools
+        create_lecturer.php
+
 ```
 
 ## Team Members
