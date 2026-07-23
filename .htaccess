@@ -1,0 +1,7 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^(?:app|config|includes|tools)(?:/|$) - [F,L,NC]
+</IfModule>

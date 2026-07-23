@@ -1,0 +1,7 @@
+Start-Process -FilePath "C:\laragon\bin\mailpit\1.22.3\mailpit.exe" -WindowStyle Hidden
+
+Always use these to start mailpit if it says refused to connect
+
+& "C:\laragon\bin\php\php-8.3.26-Win32-vs16-x64\php.exe" -l "C:\laragon\www\NSBT-Portal\app\controllers\AuthController.php"
+
+Use this to check for typing errors using terminal

@@ -1,0 +1,16 @@
+# Local database credentials and environment secrets
+/config/database.php
+.env
+.env.*
+!.env.example
+
+# Database backups: keep a schema file if you add one later
+*.sql
+!/database/schema.sql
+
+# Downloads may contain large or copyrighted files
+/assets/downloads/*
+!/assets/downloads/.gitkeep
+
+# Editor settings
+/.vscode/
